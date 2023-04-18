@@ -1,0 +1,48 @@
+
+9.
+SendRedirect() se utiliza para enviar al usuario a una página diferente y cambiar la URL en el
+navegador del usuario, mientras que getRequestDispatcher() se utiliza para enviar una solicitud
+a otro recurso dentro del servidor web sin cambiar la URL en el navegador del usuario.
+
+
+16.
+Las sesiones y las cookies son dos mecanismos utilizados en aplicaciones web para mantener el
+estado de una sesión del usuario en el servidor y en el cliente, respectivamente. Ambos tienen
+algunas similitudes, pero también hay diferencias significativas.
+
+Sesiones
+
+Una sesión se refiere a una serie de solicitudes web realizadas por un usuario en un sitio web
+en particular. En una sesión, el servidor crea un objeto de sesión para el usuario y asigna un
+ID de sesión único a ese objeto. Este ID de sesión se almacena en una cookie en el navegador del
+usuario (a menos que se utilice una URL con parámetros de sesión). El objeto de sesión puede almacenar
+datos específicos del usuario, como su nombre de usuario, configuración de idioma, historial de compras,
+etc. Estos datos se pueden acceder y modificar durante toda la sesión, lo que permite una experiencia
+de usuario personalizada.
+
+Las sesiones tienen algunas ventajas sobre las cookies:
+
+- Los datos de sesión se almacenan en el servidor, lo que significa que son más seguros que las
+cookies, ya que no se pueden leer ni modificar desde el lado del cliente.
+- Las sesiones no tienen un límite de tamaño, lo que significa que se pueden almacenar grandes cantidades de datos en ellas.
+
+Cookies
+
+Las cookies son pequeños archivos de texto que se almacenan en el navegador del usuario. Se utilizan para mantener
+el estado de la sesión del usuario en el lado del cliente. Cuando un usuario visita un sitio web, el servidor puede
+enviar una o más cookies al navegador del usuario para almacenar información como su nombre de usuario, preferencias
+de idioma, historial de compras, etc. El navegador del usuario guarda estas cookies y las envía de vuelta al servidor
+en cada solicitud, lo que permite que el servidor mantenga un seguimiento del estado de la sesión.
+
+Las cookies tienen algunas ventajas sobre las sesiones:
+
+- Las cookies son más fáciles de implementar y requieren menos recursos del servidor que las sesiones.
+- Las cookies pueden tener una duración específica, lo que significa que se pueden usar para mantener
+el estado de la sesión del usuario durante un período de tiempo determinado, incluso después de que el
+usuario cierre el navegador.
+
+
+En resumen, las sesiones y las cookies son dos mecanismos diferentes utilizados para mantener el estado de la sesión del
+usuario en aplicaciones web. Las sesiones almacenan datos en el servidor, mientras que las cookies almacenan datos en el
+navegador del usuario. Las sesiones son más seguras y pueden almacenar grandes cantidades de datos, mientras que las cookies
+son más fáciles de implementar y pueden tener una duración específica.
