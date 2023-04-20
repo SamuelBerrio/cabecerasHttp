@@ -17,5 +17,4 @@ public class LoginServiceImpl implements LoginService {
                 .map(Cookie::getValue)
                 .findAny();
     }
-
 }

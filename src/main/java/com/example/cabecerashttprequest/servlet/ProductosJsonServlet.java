@@ -27,7 +27,7 @@ public class ProductosJsonServlet extends HttpServlet {
             out.println("<html>");
             out.println(" <head>");
             out.println(" <meta charset=\"UTF-8\">");
-            out.println(" <title>Detalle de producto desde json</title>");
+            out.println(" <title> Encontrado con Exito</title>");
             out.println(" </head>");
             out.println(" <body>");
             out.println(" <h1>Detalle de producto desde json!</h1>");

@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-@WebServlet(name = "Servlet", urlPatterns = "/http-request")
+@WebServlet(name = "Servlet", urlPatterns = "/http-request-urls")
 public class Servlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse response) throws IOException {
         //Obtiene el método HTTP utilizado en la solicitud actual y lo guarda en la variable metodoHttp como un objeto String.

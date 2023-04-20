@@ -61,7 +61,7 @@ public class LoginServlet extends HttpServlet {
                 out.println(" <body>");
                 out.println(" <h1>Hola " + cookieOptional.get() + " has iniciado sesión con éxito!</h1>");
                 out.println("<p><a href='" + req.getContextPath() +
-                        "/index.html'>volver</a></p>");
+                        "/login.jsp'>volver</a></p>");
                 out.println("<p><a href='" + req.getContextPath() +
                         "/logout'>cerrar sesión</a></p>");
                 out.println(" </body>");

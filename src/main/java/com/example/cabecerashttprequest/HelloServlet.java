@@ -26,6 +26,29 @@ public class HelloServlet extends HttpServlet {
             out.println(" <head>");
             out.println(" <meta charset=\"UTF-8\">");
             out.println(" <title>La hora actualizada</title>");
+            out.println("<style>\n" +
+                    "\t\tbody {\n" +
+                    "\t\t\tdisplay: flex;\n" +
+                    "\t\t\tjustify-content: center;\n" +
+                    "\t\t\talign-items: center;\n" +
+                    "\t\t\theight: 100vh;\n" +
+                    "\t\t\tbackground-color: #000;\n" +
+                    "\t\t}\n" +
+                    "\t\t\n" +
+                    "\t\th1 {\n" +
+                    "\t\t\tcolor: #fff;\n" +
+                    "\t\t\tfont-size: 48px;\n" +
+                    "\t\t\tmargin-bottom: 0;\n" +
+                    "\t\t\ttext-align: center;\n" +
+                    "\t\t\ttext-shadow: 0 0 10px #fff;\n" +
+                    "\t\t}\n" +
+                    "\t\t\n" +
+                    "\t\th3 {\n" +
+                    "\t\t\tcolor: #fff;\n" +
+                    "\t\t\tfont-size: 72px;\n" +
+                    "\t\t\ttext-align: center;\n" +
+                    "\t\t\ttext-shadow: 0 0 10px #fff;\n" +
+                    "\t</style>");
             out.println(" </head>");
             out.println(" <body>");
             out.println(" <h1>La hora actualizada!</h1>");
